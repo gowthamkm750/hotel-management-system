@@ -46,5 +46,12 @@ namespace hotel_management_system
             f3.Show();
             this.Hide();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            search f4=new search();
+            f4.Show();
+            this.Hide();
+        }
     }
 }
