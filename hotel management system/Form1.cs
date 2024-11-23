@@ -53,5 +53,12 @@ namespace hotel_management_system
             f4.Show();
             this.Hide();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            newcust cus=new newcust();
+            cus.Show();
+            this.Hide();
+        }
     }
 }

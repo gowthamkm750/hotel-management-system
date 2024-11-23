@@ -58,6 +58,12 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
+    <Compile Include="newcust.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="newcust.Designer.cs">
+      <DependentUpon>newcust.cs</DependentUpon>
+    </Compile>
     <Compile Include="NewFoodAdd.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +89,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="newcust.resx">
+      <DependentUpon>newcust.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NewFoodAdd.resx">
       <DependentUpon>NewFoodAdd.cs</DependentUpon>
